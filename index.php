@@ -6,8 +6,13 @@
     </title>
   </head>
   <body><center>
-    <div>
-      <h1>Les Cher Ballet</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col m8 s12 offset-m2">
+          <h1>Les Cher Ballet</h1>
+          <p>Your tagline here</p>
+        </div>
+      </div>
     </div>
-    </center></body>
+  </center></body>
 </html>
