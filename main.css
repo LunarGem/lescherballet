@@ -18,3 +18,15 @@ input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+.cornerbar{
+  text-align: right;
+  top: 0;
+  right: 0;
+  width: auto;
+  position: fixed;
+}
+
+.btn{
+
+}
