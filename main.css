@@ -1,0 +1,20 @@
+body{
+  background-image: url("https://thumbs.dreamstime.com/b/ballerina-feet-second-position-closeup-s-pointe-shoes-vintage-wood-floor-black-background-en-pointe-49553874.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 30px;
+}
+.container{
+  background-color: white;
+  opacity: 0.7;
+  margin-top: 20px;
+  border-radius: 15px;
+  padding: 15px;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
