@@ -6,7 +6,9 @@
     <link type="text/css" rel="stylesheet" href="main.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script></head>
-<body><center>
+<body>
+  <?php include('cornerbar.php'); ?>
+  <center>
   <div class="container">
   <?php include('header.php'); ?>
     <div class="row">
