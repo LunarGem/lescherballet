@@ -1,7 +1,7 @@
 <div class="row">
   <div class="col m8 s12 offset-m2">
     <h1>Les Cher Ballet</h1>
-    <p>Your tagline here</p>
+    <p>Teaching the fine art of classical ballet since 1982</p>
   </div>
   <div class="col m8 s12 offset-m2">
     <a class="btn" href="index.php">Home</a>
