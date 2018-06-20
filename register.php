@@ -18,12 +18,17 @@ $(document).ready(function() {
    closeOnSelect: false // Close upon selecting a date,
  });
 });
+function dynamo(){
+  $('.content').height($('.container').height());
+  $('.content').width($('.container').width());
+}
 </script>
 </head>
-<body>
+<body onresize="javascript:dynamo()" onload="javascript:dynamo();">
   <?php include('cornerbar.php'); ?>
   <center>
   <div class="container">
+    <div class="content"></div>
   <?php include('header.php'); ?>
     <div class="row">
      <form class="col s12" action="processRegister.php" method="post">
