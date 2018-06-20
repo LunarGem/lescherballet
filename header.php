@@ -10,3 +10,4 @@
     <a class="btn" href="#">Showcase</a>
   </div>
 </div>
+<?php // TODO: make editable ?>
