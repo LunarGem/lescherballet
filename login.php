@@ -1,4 +1,4 @@
-<?php require('connect.php');?>
+<?php require('connect.php'); session_start();?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -19,16 +19,17 @@
       <div class="content"></div>
       <?php include('header.php'); ?>
       <div class="row">
+        <?php if(isset($_SESSION['msg'])){echo "<p>" . $_SESSION['msg'] . "</p>"; $_SESSION['msg'] = null;} ?>
         <div class="col s12 m4 offset-m4"><form name="login" action="processLogin.php" method="post">
           <div class="row">
             <div class="input-field col s12">
-              <input type="text" id="user" required/>
+              <input type="text" id="user" name="user" required/>
               <label for="user">Username</label>
             </div>
           </div>
           <div class="row">
             <div class="input-field col s12">
-              <input type="password" id="pass" required/>
+              <input type="password" id="pass" name="pass" required/>
               <label for="pass">Password</label>
             </div>
           </div>
