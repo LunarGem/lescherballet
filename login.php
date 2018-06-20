@@ -12,7 +12,7 @@
     <div class="container">
       <?php include('header.php'); ?>
       <div class="row">
-        <div class="col s12 m4 offset-m4"><form name="login" action="processLogin.php">
+        <div class="col s12 m4 offset-m4"><form name="login" action="processLogin.php" method="post">
           <div class="row">
             <div class="input-field col s12">
               <input type="text" id="user" required/>
