@@ -10,11 +10,18 @@
     <link type="text/css" rel="stylesheet" href="main.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script>
+      function dynamo(){
+        $('.content').height($('.container').height());
+        $('.content').width($('.container').width());
+      }
+    </script>
 
-    <body>
+    <body onresize="javascript:dynamo()" onload="javascript:dynamo();">
       <?php include('cornerbar.php'); ?>
     <center>
     <div class="container">
+      <div class="content"></div>
       <?php include('header.php'); ?>
       <br/>
       <div class="row">
@@ -35,7 +42,7 @@
         <div class="col s12 m4">
           <div class="card large">
             <div class="card-image">
-              <img src="images/LEC_9981.jpg" style="width: 450px; left: -90px;">
+              <img src="images/LEC_9661.jpg" style="width: 450px; left: -90px;">
               <span class="card-title">Classes</span>
             </div>
             <div class="card-content">
@@ -49,7 +56,7 @@
         <div class="col s12 m4">
           <div class="card large">
             <div class="card-image">
-              <img src="images/LEC_9621-2.jpg" style="width: 450px; left: -90px;"/>
+              <img src="images/LEC_9981.jpg" style="width: 450px; left: -90px;"/>
               <span class="card-title">Gallery</span>
             </div>
             <div class="card-content">
