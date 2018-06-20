@@ -26,6 +26,12 @@
       <br/>
       <div class="row">
         <div class="col m12">
+          <?php
+            if(isset($_SESSION['msg'])){
+              echo $_SESSION['msg'];
+              $_SESSION['msg'] = null;
+            }
+          ?>
           <table class="bordered responive-table centered">
             <tr>
               <th>Class Name</th>
