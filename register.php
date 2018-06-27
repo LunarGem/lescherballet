@@ -85,11 +85,11 @@ function dynamo(){
           <label for="grade">Grade in School</label>
         </div>
         <div class="input-field col s4">
-          <input type="text" id="hphone" name="hphone"/>
+          <input type="text" id="hphone" name="home"/>
           <label for="hphone">Home Phone</label>
         </div>
         <div class="input-field col s4">
-          <input type="text" id="cphone" name="cphone"/>
+          <input type="text" id="cphone" name="cell"/>
           <label for="cphone">Cell Phone</label>
         </div>
       </div>

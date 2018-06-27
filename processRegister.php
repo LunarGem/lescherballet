@@ -10,13 +10,16 @@
   $grade = $_POST["grade"];
   $home = $_POST["home"];
   $cell = $_POST["cell"];
+  if($cell == ""){
+    $cell = "-";
+  }
   $bday = $_POST["bday"];
   $training = $_POST["training"];
   $classes = $_POST["classes"];
   $email = $_POST["email"];
   $subt = $_POST["subt"];
 
-  $sql = "insert into registration(sname, pname, classes, street, city, state, zip, grade, home, cell, bday, training, email) values($sname, $pname, $classes, $street, $city, $state, $zip, $grade, $home, $cell, $bday, $training, $email)";
+  $sql = "insert into registration(sname, pname, classes, street, city, state, zip, grade, home, cell, bday, training, email) values('$sname', '$pname', '$classes', '$street', '$city', '$state', '$zip', '$grade', '$home', '$cell', '$bday', '$training', '$email')";
   if(mysqli_query($con, $sql)){
     //forward
   }else{
