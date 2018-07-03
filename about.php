@@ -35,7 +35,7 @@
         </div>
         <div class="row">
           <div class="col s12 m6">
-            <div class="card horizontal">
+            <div class="card horizontal medium">
               <div class="card-image">
                 <img src="https://lorempixel.com/100/190/nature/6">
               </div>
@@ -47,7 +47,7 @@
             </div>
           </div>
           <div class="col s12 m6">
-            <div class="card horizontal">
+            <div class="card horizontal medium">
               <div class="card-image">
                 <img src="https://lorempixel.com/100/190/nature/6">
               </div>
@@ -61,9 +61,9 @@
         </div>
         <div class="row">
           <div class="col s12 m6">
-            <div class="card horizontal">
+            <div class="card horizontal medium">
               <div class="card-image">
-                <img src="Kelly P.jpg">
+                <img src="images/Kelly P.jpg">
               </div>
               <div class="card-stacked">
                 <div class="card-content">
@@ -73,9 +73,9 @@
             </div>
           </div>
           <div class="col s12 m6">
-            <div class="card horizontal">
+            <div class="card horizontal medium">
               <div class="card-image">
-                <img src="Elizabeth R.jpg">
+                <img src="images/Elizabeth R.jpg">
               </div>
               <div class="card-stacked">
                 <div class="card-content">
@@ -85,9 +85,9 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <?php include('footer.php'); ?>
+        <div class="row">
+          <?php include('footer.php'); ?>
+        </div>
       </div>
     </div>
   </center></body>
