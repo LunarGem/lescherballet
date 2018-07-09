@@ -1,6 +1,6 @@
 <footer style="font-family: Quattrocento Sans;">
   <div class="col s12 m4">
-    <img src="images/logo.jpg"/>
+    <img src="images/logo.png"/>
   </div>
   <div class="col s12 m4">
     Copyright &copy; 2018 Les Cher Ballet <br/>
@@ -11,7 +11,7 @@
     &nbsp;&nbsp;&nbsp;&nbsp;Kelly &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Elizabeth
   </div>
   <div class="col s12 m4">
-    <img src="images/dancer.jpg"/>
+    <img src="images/dancer.png"/>
   </div>
 </footer>
 <?php // TODO: make editable ?>
