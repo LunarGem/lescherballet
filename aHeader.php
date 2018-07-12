@@ -5,9 +5,9 @@
   </div>
   <div class="col m8 s12 offset-m2">
     <a class="btn" href="aHome.php">Home</a>
-    <a class="btn" href="#">About</a>
+    <a class="btn" href="aAbout.php">About</a>
     <a class="btn" href="aSched.php">Classes</a>
-    <a class="btn" href="#">Showcase</a>
+    <a class="btn" href="aShow.php">Showcase</a>
   </div>
 </div>
 <?php // TODO: make editable ?>
