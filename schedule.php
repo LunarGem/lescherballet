@@ -2,16 +2,7 @@
 <!DOCTYPE html>
 <html>
   <head><title>Classes</title>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <link type="text/css" rel="stylesheet" href="main.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-    <script>
-      function dynamo(){
-        $('.content').height($('.container').height());
-        $('.content').width($('.container').width());
-      }
-    </script>
+  <?php include("head.php"); ?>
   </head>
 <body onresize="javascript:dynamo()" onload="javascript:dynamo();">
   <?php include('cornerbar.php'); ?>
@@ -22,7 +13,7 @@
     <div class="row">
       <div class="col m12">
         <div class="card">
-          <div class="card-content">
+          <div class="card-content copy">
             <span class="card-title">Classical Ballet</span>
             <p>Ballet is a fine art and requires a strong basic foundation. The Cecchetti method is a graded system of classical ballet which takes the student from the first lesson to solo status. Examinations are offered to test the student's proficiency within each of the grades. The exams provide them with an opportunity to perfect their technique and the satisfaction of knowing they have accomplished this goal. It is "Les Cher's" intent to provide this training through a progression of well-balanced technique classes. Click on a class link to learn more.</p>
             <p>Exam candidates are required to take a minimum of two classes per week and will be presented for an exam at the directors' discretion. Private lessons may be available to supplement classes for the purpose of extra instruction.</p>
@@ -31,7 +22,7 @@
       </div>
     </div>
     <div class="row">
-      <table class="bordered responsive-table centered">
+      <table class="bordered responsive-table centered copy">
         <tr style="text-align: center;">
           <th>Group</th>
           <th>Days</th>
@@ -52,7 +43,7 @@
     <div class="row">
       <div class="col m12">
         <div class="card">
-          <div class="card-content">
+          <div class="card-content copy">
             <span class="card-title">Information for All Classes</span>
             <p> All returning students should register as soon as possible, due to limited class size.</p>
  <p>Complete the registration form and return with fee of $25.00 to "Les Cher" 1700 Albermarle Drive, Crofton, Md. 21114. </p>
@@ -80,7 +71,7 @@
       </div>
     </div>
     <div class="row">
-      <table class="bordered resposive-table centered">
+      <table class="bordered resposive-table centered copy">
         <tr>
           <th>Hours</th>
           <th>Regular Price</th>
@@ -99,7 +90,7 @@
     <div class="row">
       <div class="col m12">
         <div class="card">
-          <div class="card-content">
+          <div class="card-content copy">
             <span class="card-title">Sibling Discount</span>
             <p>
               <p>A 10% discount for siblings is offered on each semester tuition. Tuition checks should be made out to "Les Cher". Please designate on check the student's full name and what the payment is for. Tuition is based on hours per week, per student. If your child takes two 1½-hour classes, that is 3 hours. There are no refunds. Checks that do not clear the bank, will be charged $25. Any questions please contact us.</p>
@@ -110,7 +101,7 @@
     </div>
     <div class="row">
       <p>
-        Can't wait for a check to go through? Hit the button below to pay with Paypal!
+        Can't wait to get started? Hit the button below to register! Online payments coming soon.
       </p>
       <a class="btn-large" href="register.php">Register</a>
     </div>

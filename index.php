@@ -6,23 +6,9 @@
     <title>
         Les Cher Ballet
     </title>
-<<<<<<< HEAD
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <link type="text/css" rel="stylesheet" href="main.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-    <script>
-      function dynamo(){
-        $('.content').height($('.container').height());
-        $('.content').width($('.container').width());
-      }
-    </script>
-=======
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
->>>>>>> origin/master
-
+    <?php include("head.php");?>
     <body onresize="javascript:dynamo()" onload="javascript:dynamo();">
+      <!--TODO: increase z-index somehow (goes behind cards on mobile)-->
       <?php include('cornerbar.php'); ?>
     <center>
     <div class="container">
@@ -36,11 +22,11 @@
               <img src="images/Les Cher 1.jpg"/>
               <span class="card-title">Our Founders</span>
             </div>
-            <div class="card-content">
-              <p>Founded in 1982, the name "Les Cher" is a faux-French port- manteau of the names of our two founders, Leslie Parreco and Cherry Dowsley (pictured above).</p>
+            <div class="card-content copy">
+              <p>Founded in 1982, the name "Les Cher" is a faux-French port- manteau of the names of our two founders, Leslie Parreco and Cherry Dowsley (above).</p>
             </div>
             <div class="card-action">
-              <a href="#">Learn About Us</a>
+              <a href="about.php">Learn About Us</a>
             </div>
           </div>
         </div>
@@ -50,8 +36,8 @@
               <img src="images/LEC_9661.jpg" style="width: 450px; left: -90px;">
               <span class="card-title">Classes</span>
             </div>
-            <div class="card-content">
-              <p>We offer classes in the evenings Mondays through Thursdays for students from the age of three to one hundred and three!</p>
+            <div class="card-content copy">
+              <p>We offer classes in the evenings Mondays through Thursdays for students from the age of two to one hundred and two!</p>
             </div>
             <div class="card-action">
               <a href="schedule.php">Schedule</a>
@@ -64,11 +50,11 @@
               <img src="images/LEC_9981.jpg" style="width: 450px; left: -90px;"/>
               <span class="card-title">Gallery</span>
             </div>
-            <div class="card-content">
+            <div class="card-content copy">
               <p>See our students in their recital costumes from this year and past years!</p>
             </div>
             <div class="card-action">
-              <a href="#">Showcase</a>
+              <a href="showcase.php">Showcase</a>
             </div>
           </div>
         </div>

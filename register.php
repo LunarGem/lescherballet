@@ -1,10 +1,7 @@
 <html lang="en">
 <head>
 <title>Registration</title>
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<link type="text/css" rel="stylesheet" href="main.css"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<?php include("head.php"); ?>
 <script>
 $(document).ready(function() {
  $('select').material_select();
@@ -17,11 +14,7 @@ $(document).ready(function() {
    close: 'Ok',
    closeOnSelect: false // Close upon selecting a date,
  });
-});
-function dynamo(){
-  $('.content').height($('.container').height());
-  $('.content').width($('.container').width());
-}
+}); 
 </script>
 </head>
 <body onresize="javascript:dynamo()" onload="javascript:dynamo();">

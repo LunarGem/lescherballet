@@ -20,7 +20,6 @@ body{
   padding: 15px;
   z-index: -10;
   position: absolute;
-  /*left: 222px;*/
   right: 3px;
 }
 
@@ -36,6 +35,7 @@ input[type=number]::-webkit-outer-spin-button {
   right: 0;
   width: auto;
   position: fixed;
+  z-index: 100;
 }
 
 .btn{
@@ -44,4 +44,21 @@ input[type=number]::-webkit-outer-spin-button {
 
 img{
   opacity: 1.0;
+}
+
+.title{
+  font-family: Italianno;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+.subtitle{
+  font-family: Italianno;
+  margin-top: 0;
+}
+
+.quattrocento{
+  font-family: Quattrocento Sans;
+}
+.copy{
+  font-family: Nanum Gothic;
 }
